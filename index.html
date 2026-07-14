@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
@@ -107,14 +107,13 @@
   </header>
 
   <!-- ================= HERO SECTION ================= -->
-  <!-- ================= HERO SECTION ================= -->
-  <section id="hero" class="relative min-h-screen pt-32 pb-20 px-6 overflow-hidden flex flex-col items-center justify-center w-full min-w-0">
+  <section id="hero" class="relative min-h-screen pt-28 pb-16 px-4 sm:px-6 overflow-hidden flex flex-col items-center justify-center w-full min-w-0">
     <!-- Background Image visible ONLY on Mobile/Tablet -->
     <div class="absolute inset-0 z-0 lg:hidden">
       <!-- Imagem nítida e com opacidade adequada para mobile -->
       <img src="assets/user_fachada.jpg" alt="Fachada CARPRO Campo Grande" class="w-full h-full object-cover object-center opacity-40">
       <!-- Máscara de gradiente escuro para legibilidade no celular -->
-      <div class="absolute inset-0 bg-gradient-to-b from-brand-bg/70 via-brand-bg/90 to-brand-bg z-10"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-brand-bg/80 via-brand-bg/95 to-brand-bg z-10"></div>
     </div>
 
     <!-- Grid Overlay and Glowing Orbs -->
@@ -122,64 +121,63 @@
     <div class="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-brand-blue/30 blur-[120px] pointer-events-none z-10"></div>
     <div class="absolute bottom-10 right-0 w-[450px] h-[450px] rounded-full bg-brand-orange/10 blur-[130px] pointer-events-none z-10"></div>
 
-    <div class="w-full max-w-7xl mx-auto z-20 px-4 sm:px-6 min-w-0">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full min-w-0">
+    <div class="w-full max-w-7xl mx-auto z-20 px-2 sm:px-6 min-w-0">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center w-full min-w-0">
         
         <!-- Text/Info Side (Left) -->
-        <div class="col-span-12 lg:col-span-6 space-y-8 flex flex-col justify-center text-left min-w-0 w-full">
+        <div class="col-span-12 lg:col-span-6 space-y-6 md:space-y-8 flex flex-col justify-center text-left min-w-0 w-full">
           <!-- Floating Small Badge -->
-          <div class="hero-badge self-start flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-brand-card/50 backdrop-blur-md">
-            <span class="flex h-2.5 w-2.5 relative">
+          <div class="hero-badge self-start flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/10 bg-brand-card/50 backdrop-blur-md">
+            <span class="flex h-2 w-2 relative">
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-orange opacity-75"></span>
-              <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-orange"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-orange"></span>
             </span>
-            <span class="text-xs tracking-wider uppercase font-semibold text-slate-300">Oficina Completa em Campo Grande - RJ</span>
+            <span class="text-[10px] sm:text-xs tracking-wider uppercase font-semibold text-slate-300">Oficina Completa em Campo Grande - RJ</span>
           </div>
 
           <!-- Main Title -->
           <h1 class="hero-title text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight font-title whitespace-normal break-words w-full min-w-0">
             <span class="block whitespace-normal break-words w-full min-w-0">Tecnologia, Precisão</span>
             <span class="block whitespace-normal break-words w-full min-w-0">e Mecânica Geral.</span>
-            <span class="block text-brand-orange sm:text-transparent sm:bg-clip-text sm:bg-gradient-to-r sm:from-brand-orange sm:to-brand-orangeHover whitespace-normal break-words leading-normal pb-1 w-full min-w-0">O cuidado ideal para seu carro.</span>
+            <span class="block text-brand-orange sm:text-transparent sm:bg-clip-text sm:bg-gradient-to-r sm:from-brand-orange sm:to-brand-orangeHover whitespace-normal break-words leading-tight mt-1 pb-1 w-full min-w-0">O cuidado ideal para seu carro.</span>
           </h1>
 
-        <!-- Subtitle/Description -->
-        <p class="hero-desc text-slate-300 text-lg max-w-2xl font-light">
-          Na <strong class="text-white font-semibold">CARPRO</strong>, unimos equipamentos de ponta à experiência de especialistas para oferecer mecânica geral, elétrica, som, alarmes, acessórios e estética automotiva.
-        </p>
+          <!-- Subtitle/Description -->
+          <p class="hero-desc text-slate-300 text-base sm:text-lg max-w-2xl font-light leading-relaxed whitespace-normal break-words">
+            Na <strong class="text-white font-semibold">CARPRO</strong>, unimos equipamentos de ponta à experiência de especialistas para oferecer mecânica geral, elétrica, som, alarmes, acessórios e estética automotiva.
+          </p>
 
-        <!-- Dynamic Quick info -->
-        <div class="border-t border-b border-white/5 py-4 max-w-md">
-          <span class="text-xs uppercase text-slate-500 font-semibold block">WhatsApp de Contato & Orçamentos</span>
-          <a href="https://wa.me/5521975721018" target="_blank" class="text-brand-orange hover:underline font-bold text-xl flex items-center gap-1.5 mt-1">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.59 1.967 14.11 1.01 11.48 1.01c-5.44 0-9.866 4.372-9.87 9.802 0 1.706.463 3.37 1.337 4.848l-.99 3.613 3.7-.959zm12.333-6.903c-.294-.145-1.736-.845-2.004-.94-.268-.097-.463-.145-.658.145-.195.29-.757.94-.927 1.13-.17.195-.34.22-.634.075-.294-.145-1.243-.452-2.368-1.444-.877-.772-1.469-1.725-1.64-2.016-.17-.29-.018-.447.129-.592.132-.13.294-.34.44-.51.147-.17.195-.29.293-.483.098-.195.049-.36-.024-.51-.074-.145-.658-1.56-.9-2.147-.236-.57-.478-.492-.658-.501-.17-.008-.364-.01-.557-.01-.195 0-.512.072-.78.36-.268.29-1.024 1.002-1.024 2.445 0 1.443 1.074 2.839 1.22 3.033.147.195 2.113 3.183 5.118 4.457.715.303 1.273.484 1.708.621.718.225 1.37.193 1.886.118.575-.085 1.736-.699 1.98-1.376.244-.677.244-1.258.17-1.376-.073-.118-.268-.195-.562-.34z"/>
-            </svg>
-            (21) 97572-1018
-          </a>
+          <!-- Dynamic Quick info -->
+          <div class="border-t border-b border-white/5 py-4 max-w-md w-full">
+            <span class="text-[10px] sm:text-xs uppercase text-slate-500 font-semibold block">WhatsApp de Contato & Orçamentos</span>
+            <a href="https://wa.me/5521975721018" target="_blank" class="text-brand-orange hover:underline font-bold text-lg sm:text-xl flex items-center gap-1.5 mt-1">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.59 1.967 14.11 1.01 11.48 1.01c-5.44 0-9.866 4.372-9.87 9.802 0 1.706.463 3.37 1.337 4.848l-.99 3.613 3.7-.959zm12.333-6.903c-.294-.145-1.736-.845-2.004-.94-.268-.097-.463-.145-.658.145-.195.29-.757.94-.927 1.13-.17.195-.34.22-.634.075-.294-.145-1.243-.452-2.368-1.444-.877-.772-1.469-1.725-1.64-2.016-.17-.29-.018-.447.129-.592.132-.13.294-.34.44-.51.147-.17.195-.29.293-.483.098-.195.049-.36-.024-.51-.074-.145-.658-1.56-.9-2.147-.236-.57-.478-.492-.658-.501-.17-.008-.364-.01-.557-.01-.195 0-.512.072-.78.36-.268.29-1.024 1.002-1.024 2.445 0 1.443 1.074 2.839 1.22 3.033.147.195 2.113 3.183 5.118 4.457.715.303 1.273.484 1.708.621.718.225 1.37.193 1.886.118.575-.085 1.736-.699 1.98-1.376.244-.677.244-1.258.17-1.376-.073-.118-.268-.195-.562-.34z"/>
+              </svg>
+              (21) 97572-1018
+            </a>
+          </div>
+
+          <!-- CTAs -->
+          <div class="hero-ctas flex flex-col sm:flex-row gap-4 pt-2 w-full">
+            <!-- Primary CTA Button -->
+            <a href="https://wa.me/5521975721018?text=Ol%C3%A1%2C%20vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20or%C3%A7amento%20para%20meu%20ve%C3%ADculo." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="animate-btn w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl bg-brand-orange text-white font-title font-extrabold text-sm sm:text-base glow-orange hover:bg-brand-orangeHover transition-all flex items-center justify-center gap-3">
+              <svg class="w-5 h-5 fill-current flex-shrink-0" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.59 1.967 14.11 1.01 11.48 1.01c-5.44 0-9.866 4.372-9.87 9.802 0 1.706.463 3.37 1.337 4.848l-.99 3.613 3.7-.959zm12.333-6.903c-.294-.145-1.736-.845-2.004-.94-.268-.097-.463-.145-.658.145-.195.29-.757.94-.927 1.13-.17.195-.34.22-.634.075-.294-.145-1.243-.452-2.368-1.444-.877-.772-1.469-1.725-1.64-2.016-.17-.29-.018-.447.129-.592.132-.13.294-.34.44-.51.147-.17.195-.29.293-.483.098-.195.049-.36-.024-.51-.074-.145-.658-1.56-.9-2.147-.236-.57-.478-.492-.658-.501-.17-.008-.364-.01-.557-.01-.195 0-.512.072-.78.36-.268.29-1.024 1.002-1.024 2.445 0 1.443 1.074 2.839 1.22 3.033.147.195 2.113 3.183 5.118 4.457.715.303 1.273.484 1.708.621.718.225 1.37.193 1.886.118.575-.085 1.736-.699 1.98-1.376.244-.677.244-1.258.17-1.376-.073-.118-.268-.195-.562-.34z"/>
+              </svg>
+              Agendar Revisão
+            </a>
+
+            <!-- Secondary CTA -->
+            <a href="#servicos" class="animate-btn w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl border border-white/10 hover:border-brand-blue hover:bg-brand-blue/10 transition-all font-title font-semibold text-slate-300 text-sm sm:text-base flex items-center justify-center">
+              Ver Todos os Serviços
+            </a>
+          </div>
         </div>
 
-        <!-- CTAs -->
-        <div class="hero-ctas flex flex-col sm:flex-row gap-4 pt-2">
-          <!-- Primary CTA Button -->
-          <a href="https://wa.me/5521975721018?text=Ol%C3%A1%2C%20vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20or%C3%A7amento%20para%20meu%20ve%C3%ADculo." 
-             target="_blank" 
-             rel="noopener noreferrer" 
-             class="animate-btn w-full sm:w-auto px-8 py-4 rounded-xl bg-brand-orange text-white font-title font-extrabold text-base glow-orange hover:bg-brand-orangeHover transition-all flex items-center justify-center gap-3">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.59 1.967 14.11 1.01 11.48 1.01c-5.44 0-9.866 4.372-9.87 9.802 0 1.706.463 3.37 1.337 4.848l-.99 3.613 3.7-.959zm12.333-6.903c-.294-.145-1.736-.845-2.004-.94-.268-.097-.463-.145-.658.145-.195.29-.757.94-.927 1.13-.17.195-.34.22-.634.075-.294-.145-1.243-.452-2.368-1.444-.877-.772-1.469-1.725-1.64-2.016-.17-.29-.018-.447.129-.592.132-.13.294-.34.44-.51.147-.17.195-.29.293-.483.098-.195.049-.36-.024-.51-.074-.145-.658-1.56-.9-2.147-.236-.57-.478-.492-.658-.501-.17-.008-.364-.01-.557-.01-.195 0-.512.072-.78.36-.268.29-1.024 1.002-1.024 2.445 0 1.443 1.074 2.839 1.22 3.033.147.195 2.113 3.183 5.118 4.457.715.303 1.273.484 1.708.621.718.225 1.37.193 1.886.118.575-.085 1.736-.699 1.98-1.376.244-.677.244-1.258.17-1.376-.073-.118-.268-.195-.562-.34z"/>
-            </svg>
-            Agendar Revisão
-          </a>
-
-          <!-- Secondary CTA -->
-          <a href="#servicos" class="animate-btn w-full sm:w-auto px-8 py-4 rounded-xl border border-white/10 hover:border-brand-blue hover:bg-brand-blue/10 transition-all font-title font-semibold text-slate-300 flex items-center justify-center">
-            Ver Todos os Serviços
-          </a>
-        </div>
-      </div>
-
-      <!-- Facade Image Showcase - Styled Premium on the right (Right Column: lg:col-span-6) -->
       <!-- Facade Image Showcase - Styled Premium on the right (Visible ONLY on Desktop) -->
       <div class="hidden lg:col-span-6 relative w-full lg:flex flex-col items-center justify-center mt-6 lg:mt-0">
         <!-- Frame Wrapper with premium styling -->
